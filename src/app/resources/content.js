@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Videography/ Photography /Content Creators',
     avatar:    '',
-    location:  'Europe/Vienna',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kannada']  // optional: Leave the array empty if you don't want to display languages
 }
 
@@ -21,25 +21,17 @@ const newsletter = {
 const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
+    
+    
     {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
-    },
-    {
-        name: 'LinkedIn',
-        icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
-    },
-    {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Instagram',
+        icon: 'instagram',
+        link: 'https://www.instagram.com/s54__v?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:preethamalva1007@gmail.com',
     },
 ]
 
@@ -48,12 +40,12 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>VideoGraphy Photography Content Creators</>,
-    subline: <>We're s54, a  <InlineCode>Freelaance Videographers</InlineCode>, where we craft intuitive<br/> user experiences. Check out our videos!!</>
+    subline: <>We're s54, a  <InlineCode>Freelance Videographers</InlineCode>, where we craft intuitive<br/> user experiences. Check out our videos!!</>
 }
 
 const about = {
     label: 'About',
-    title: 'About me',
+    title: 'About Us',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
@@ -69,10 +61,13 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Welcome to S54_Lens!
+        description: <>Welcome to S54_Lens! <br />
+        
         We are a creative team of videographers, photographers, and content creators, delivering high-quality visuals at unbeatable prices.
         From stunning car and bike shoots to captivating shop opening videos, we bring your vision to life.
         Explore our portfolio and let us capture your story like never before! </>
+        
+    
     },
     work: {
         display: false, // set to false to hide this section
@@ -169,7 +164,7 @@ const blog = {
 
 const work = {
     label: 'Work',
-    title: 'My projects',
+    title: 'Our projects',
     description: `Design and dev projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
@@ -177,7 +172,7 @@ const work = {
 
 const gallery = {
     label: 'Gallery',
-    title: 'My photo gallery',
+    title: 'Our photo gallery',
     description: `A photo collection by ${person.name}`,
     // Images from https://pexels.com
     images: [

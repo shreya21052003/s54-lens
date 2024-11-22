@@ -2,8 +2,8 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 'Shreya',
-        lastName:  'Salian',
+        firstName: 's54',
+        lastName:  '',
         get name() {
             return `${this.firstName} ${this.lastName}`;
         },
@@ -73,7 +73,7 @@ const createI18nContent = (t) => {
             description: <>{t("about.intro.description")}</>
         },
         work: {
-            display: true, // set to false to hide this section
+            display: false, // set to false to hide this section
             title: t("about.work.title"),
             experiences: [
                 {
@@ -100,7 +100,7 @@ const createI18nContent = (t) => {
             ]
         },
         studies: {
-            display: true, // set to false to hide this section
+            display: false, // set to false to hide this section
             title: 'Studies',
             institutions: [
                 {
@@ -114,7 +114,7 @@ const createI18nContent = (t) => {
             ]
         },
         technical: {
-            display: true, // set to false to hide this section
+            display: false, // set to false to hide this section
             title: t("about.technical.title"),
             skills: [
                 {
