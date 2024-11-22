@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Videography/Photography/Content Creators',
+    role:      'Videography/ Photography /Content Creators',
     avatar:    '',
     location:  'Europe/Vienna',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kannada']  // optional: Leave the array empty if you don't want to display languages
@@ -75,7 +75,7 @@ const about = {
         Explore our portfolio and let us capture your story like never before! </>
     },
     work: {
-        display: False, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
