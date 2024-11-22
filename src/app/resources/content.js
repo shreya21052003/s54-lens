@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Videography/Photography/Content Creators',
     avatar:    '',
-    location:  'Asia/Mangalore',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Europe/Vienna',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kannada']  // optional: Leave the array empty if you don't want to display languages
 }
 
