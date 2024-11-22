@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Video Grapher</>,
-    subline: <>I'm Suhan, a  <InlineCode>Freelaance Videographer</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>VideoGraphy Photography Content Creators</>,
+    subline: <>We're s54, a  <InlineCode>Freelaance Videographers</InlineCode>, where we craft intuitive<br/> user experiences. Check out our videos!!</>
 }
 
 const about = {
@@ -69,10 +69,13 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>we're s54 </>
+        description: <>Welcome to S54_Lens!
+        We are a creative team of videographers, photographers, and content creators, delivering high-quality visuals at unbeatable prices.
+        From stunning car and bike shoots to captivating shop opening videos, we bring your vision to life.
+        Explore our portfolio and let us capture your story like never before! </>
     },
     work: {
-        display: true, // set to false to hide this section
+        display: False, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
@@ -105,7 +108,7 @@ const about = {
         ]
     },
     studies: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Studies',
         institutions: [
             {
@@ -119,7 +122,7 @@ const about = {
         ]
     },
     technical: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Technical skills',
         skills: [
             {
