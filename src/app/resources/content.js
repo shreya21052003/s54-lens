@@ -1,7 +1,7 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 's54_lens',
+    firstName: 'S54_lens',
     lastName:  '',
     get name() {
         return `${this.firstName} ${this.lastName}`;
@@ -9,7 +9,7 @@ const person = {
     role:      'Videography/ Photography /Content Creators',
     avatar:    '',
     location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Kannada']  // optional: Leave the array empty if you don't want to display languages
+    languages: ['English', 'Kannada','Hindi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -55,7 +55,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com'
     },
     intro: {
@@ -177,22 +177,22 @@ const gallery = {
     // Images from https://pexels.com
     images: [
         { 
-            src: '/images/gallery/img-01.jpg', 
+            src: '/images/gallery/s541.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-02.jpg', 
+            src: '/images/gallery/s544.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-03.jpg', 
+            src: '/images/gallery/s542.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-04.jpg', 
+            src: '/images/gallery/s544.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
@@ -202,7 +202,7 @@ const gallery = {
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-06.jpg', 
+            src: '/images/gallery/s543.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },

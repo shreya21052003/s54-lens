@@ -2,7 +2,7 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 's54',
+        firstName: 'S54',
         lastName:  '',
         get name() {
             return `${this.firstName} ${this.lastName}`;
@@ -10,7 +10,7 @@ const createI18nContent = (t) => {
         role:      t("person.role"),
         avatar:    '/images/gallery/photo.jpg',
         location:  'Europe/Vienna',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-        languages: ['English', 'Kannada']  // optional: Leave the array empty if you don't want to display languages
+        languages: ['English', 'Kannada','Hindi']  // optional: Leave the array empty if you don't want to display languages
     }
 
     const newsletter = {
@@ -64,7 +64,7 @@ const createI18nContent = (t) => {
             display: true
         },
         calendar: {
-            display: true,
+            display: false,
             link: 'https://cal.com'
         },
         intro: {
