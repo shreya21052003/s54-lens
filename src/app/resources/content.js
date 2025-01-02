@@ -13,7 +13,7 @@ const person = {
 }
 
 const newsletter = {
-    display: true,
+    display: false,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
     description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
 }
@@ -164,7 +164,7 @@ const blog = {
 
 const work = {
     label: 'Work',
-    title: 'Our projects',
+    title: 'S54 projects',
     description: `Design and dev projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
@@ -172,7 +172,7 @@ const work = {
 
 const gallery = {
     label: 'Gallery',
-    title: 'Our photo gallery',
+    title: 'S54 Studio',
     description: `A photo collection by ${person.name}`,
     // Images from https://pexels.com
     images: [
@@ -182,7 +182,7 @@ const gallery = {
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/s544.jpg', 
+            src: '/images/gallery/img-04.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
@@ -212,7 +212,7 @@ const gallery = {
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-08.jpg', 
+            src: '/images/gallery/falls1.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
