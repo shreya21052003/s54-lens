@@ -147,7 +147,7 @@ export default function Project({ params }: WorkParams) {
 				maxWidth="xs" fillWidth
 				direction="column">
 				<Flex
-					gap="12" marginBottom="24"
+					gap="16" marginBottom="24"
 					alignItems="center">
 					{ post.metadata.team && (
 						<AvatarGroup
